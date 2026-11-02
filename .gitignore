@@ -1,0 +1,23 @@
+# ---- 密钥与本地配置（绝不提交）----
+**/.env
+**/.env.local
+**/.env.*.local
+
+# ---- 依赖与构建产物 ----
+**/node_modules/
+web/dist/
+pages-dist/
+.wrangler/
+
+# ---- 数据库与备份（可由 seed 重建）----
+**/*.sqlite
+**/*.sqlite-wal
+**/*.sqlite-shm
+data/backups/
+data/export/
+
+# ---- 截图（可由 npm run screenshots 重新生成）----
+docs/screenshots/*.png
+
+# ---- 根目录临时研究记录（项目内 research/ 已含同内容存档）----
+_research/
