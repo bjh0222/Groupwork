@@ -1,0 +1,28 @@
+# Workers 版部署配置（产出 *.workers.dev 域名，全球可达但中国大陆 DNS 被污染）。
+# 中国大陆长期可达地址请用 Pages 版（根目录 wrangler.toml，产出 *.pages.dev）。
+name = "three-living-maps"
+main = "src/worker.mjs"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = "../web/dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "three-living-maps"
+database_id = "b4248189-59d4-4b08-b883-eb472a730cf9"
+
+[vars]
+AI_MAX_TOKENS = "3200"
+AI_TEMPERATURE = "0.2"
+AI_TIMEOUT_MS = "90000"
+AI_SCOPE_OVERLAP = "0.62"
+AI_SCOPE_CONF = "0.35"
+AI_RATE_LIMIT_PER_MIN = "10"
+API_RATE_PER_MIN = "240"
+FEEDBACK_RATE_PER_MIN = "6"
+CANDIDATE_RATE_PER_MIN = "6"
+ADMIN_RATE_PER_MIN = "120"

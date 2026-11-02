@@ -1,0 +1,287 @@
+{
+ "attention": {
+  "id": "1706.03762",
+  "url": "https://arxiv.org/abs/1706.03762",
+  "title": "[1706.03762] Attention Is All You Need",
+  "authors": [
+   "Vaswani, Ashish",
+   "Shazeer, Noam",
+   "Parmar, Niki",
+   "Uszkoreit, Jakob",
+   "Jones, Llion",
+   "Gomez, Aidan N.",
+   "Kaiser, Lukasz",
+   "Polosukhin, Illia"
+  ],
+  "online_date": "2023/08/02",
+  "comment": "15 pages, 5 figures"
+ },
+ "cot": {
+  "id": "2201.11903",
+  "url": "https://arxiv.org/abs/2201.11903",
+  "title": "[2201.11903] Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+  "authors": [
+   "Wei, Jason",
+   "Wang, Xuezhi",
+   "Schuurmans, Dale",
+   "Bosma, Maarten",
+   "Ichter, Brian",
+   "Xia, Fei",
+   "Chi, Ed",
+   "Le, Quoc",
+   "Zhou, Denny"
+  ],
+  "online_date": "2023/01/10",
+  "comment": null
+ },
+ "rag": {
+  "id": "2005.11401",
+  "url": "https://arxiv.org/abs/2005.11401",
+  "title": "[2005.11401] Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "authors": [
+   "Lewis, Patrick",
+   "Perez, Ethan",
+   "Piktus, Aleksandra",
+   "Petroni, Fabio",
+   "Karpukhin, Vladimir",
+   "Goyal, Naman",
+   "Küttler, Heinrich",
+   "Lewis, Mike",
+   "Yih, Wen-tau",
+   "Rocktäschel, Tim",
+   "Riedel, Sebastian",
+   "Kiela, Douwe"
+  ],
+  "online_date": "2021/04/12",
+  "comment": "Accepted at NeurIPS 2020"
+ },
+ "toolformer": {
+  "id": "2302.04761",
+  "url": "https://arxiv.org/abs/2302.04761",
+  "title": "[2302.04761] Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "authors": [
+   "Schick, Timo",
+   "Dwivedi-Yu, Jane",
+   "Dessì, Roberto",
+   "Raileanu, Roberta",
+   "Lomeli, Maria",
+   "Zettlemoyer, Luke",
+   "Cancedda, Nicola",
+   "Scialom, Thomas"
+  ],
+  "online_date": "2023/02/09",
+  "comment": null
+ },
+ "react": {
+  "id": "2210.03629",
+  "url": "https://arxiv.org/abs/2210.03629",
+  "title": "[2210.03629] ReAct: Synergizing Reasoning and Acting in Language Models",
+  "authors": [
+   "Yao, Shunyu",
+   "Zhao, Jeffrey",
+   "Yu, Dian",
+   "Du, Nan",
+   "Shafran, Izhak",
+   "Narasimhan, Karthik",
+   "Cao, Yuan"
+  ],
+  "online_date": "2023/03/10",
+  "comment": "v3 is the ICLR camera ready version with some typos fixed. Project site with code: this https URL "
+ },
+ "helmi": {
+  "id": "2211.09110",
+  "url": "https://arxiv.org/abs/2211.09110",
+  "title": "[2211.09110] Holistic Evaluation of Language Models",
+  "authors": [
+   "Liang, Percy",
+   "Bommasani, Rishi",
+   "Lee, Tony",
+   "Tsipras, Dimitris",
+   "Soylu, Dilara",
+   "Yasunaga, Michihiro",
+   "Zhang, Yian",
+   "Narayanan, Deepak",
+   "Wu, Yuhuai",
+   "Kumar, Ananya",
+   "Newman, Benjamin",
+   "Yuan, Binhang",
+   "Yan, Bobby",
+   "Zhang, Ce",
+   "Cosgrove, Christian",
+   "Manning, Christopher D.",
+   "Ré, Christopher",
+   "Acosta-Navas, Diana",
+   "Hudson, Drew A.",
+   "Zelikman, Eric",
+   "Durmus, Esin",
+   "Ladhak, Faisal",
+   "Rong, Frieda",
+   "Ren, Hongyu",
+   "Yao, Huaxiu",
+   "Wang, Jue",
+   "Santhanam, Keshav",
+   "Orr, Laurel",
+   "Zheng, Lucia",
+   "Yuksekgonul, Mert",
+   "Suzgun, Mirac",
+   "Kim, Nathan",
+   "Guha, Neel",
+   "Chatterji, Niladri",
+   "Khattab, Omar",
+   "Henderson, Peter",
+   "Huang, Qian",
+   "Chi, Ryan",
+   "Xie, Sang Michael",
+   "Santurkar, Shibani",
+   "Ganguli, Surya",
+   "Hashimoto, Tatsunori",
+   "Icard, Thomas",
+   "Zhang, Tianyi",
+   "Chaudhary, Vishrav",
+   "Wang, William",
+   "Li, Xuechen",
+   "Mai, Yifan",
+   "Zhang, Yuhui",
+   "Koreeda, Yuta"
+  ],
+  "online_date": "2023/10/01",
+  "comment": "Authored by the Center for Research on Foundation Models (CRFM) at the Stanford Institute for Human-Centered Artificial Intelligence (HAI). Project page: this https URL "
+ },
+ "mtbench": {
+  "id": "2306.05685",
+  "url": "https://arxiv.org/abs/2306.05685",
+  "title": "[2306.05685] Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+  "authors": [
+   "Zheng, Lianmin",
+   "Chiang, Wei-Lin",
+   "Sheng, Ying",
+   "Zhuang, Siyuan",
+   "Wu, Zhanghao",
+   "Zhuang, Yonghao",
+   "Lin, Zi",
+   "Li, Zhuohan",
+   "Li, Dacheng",
+   "Xing, Eric P.",
+   "Zhang, Hao",
+   "Gonzalez, Joseph E.",
+   "Stoica, Ion"
+  ],
+  "online_date": "2023/12/24",
+  "comment": "NeurIPS 2023 Datasets and Benchmarks Track"
+ },
+ "rag_survey": {
+  "id": "2312.10997",
+  "url": "https://arxiv.org/abs/2312.10997",
+  "title": "[2312.10997] Retrieval-Augmented Generation for Large Language Models: A Survey",
+  "authors": [
+   "Gao, Yunfan",
+   "Xiong, Yun",
+   "Gao, Xinyu",
+   "Jia, Kangxiang",
+   "Pan, Jinliu",
+   "Bi, Yuxi",
+   "Dai, Yi",
+   "Sun, Jiawei",
+   "Wang, Meng",
+   "Wang, Haofen"
+  ],
+  "online_date": "2024/03/27",
+  "comment": "Ongoing Work"
+ },
+ "lost_middle": {
+  "id": "2307.03172",
+  "url": "https://arxiv.org/abs/2307.03172",
+  "title": "[2307.03172] Lost in the Middle: How Language Models Use Long Contexts",
+  "authors": [
+   "Liu, Nelson F.",
+   "Lin, Kevin",
+   "Hewitt, John",
+   "Paranjape, Ashwin",
+   "Bevilacqua, Michele",
+   "Petroni, Fabio",
+   "Liang, Percy"
+  ],
+  "online_date": "2023/11/20",
+  "comment": "18 pages, 16 figures. Accepted for publication in Transactions of the Association for Computational Linguistics (TACL), 2023"
+ },
+ "selfrag": {
+  "id": "2310.11511",
+  "url": "https://arxiv.org/abs/2310.11511",
+  "title": "[2310.11511] Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+  "authors": [
+   "Asai, Akari",
+   "Wu, Zeqiu",
+   "Wang, Yizhong",
+   "Sil, Avirup",
+   "Hajishirzi, Hannaneh"
+  ],
+  "online_date": "2023/10/17",
+  "comment": "30 pages, 2 figures, 12 tables"
+ },
+ "prompt_inj": {
+  "id": "2302.12173",
+  "url": "https://arxiv.org/abs/2302.12173",
+  "title": "[2302.12173] Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+  "authors": [
+   "Greshake, Kai",
+   "Abdelnabi, Sahar",
+   "Mishra, Shailesh",
+   "Endres, Christoph",
+   "Holz, Thorsten",
+   "Fritz, Mario"
+  ],
+  "online_date": "2023/05/05",
+  "comment": null
+ },
+ "rarr": {
+  "id": "2210.08726",
+  "url": "https://arxiv.org/abs/2210.08726",
+  "title": "[2210.08726] RARR: Researching and Revising What Language Models Say, Using Language Models",
+  "authors": [
+   "Gao, Luyu",
+   "Dai, Zhuyun",
+   "Pasupat, Panupong",
+   "Chen, Anthony",
+   "Chaganty, Arun Tejasvi",
+   "Fan, Yicheng",
+   "Zhao, Vincent Y.",
+   "Lao, Ni",
+   "Lee, Hongrae",
+   "Juan, Da-Cheng",
+   "Guu, Kelvin"
+  ],
+  "online_date": "2023/05/31",
+  "comment": "ACL 2023"
+ },
+ "gorilla": {
+  "id": "2305.15334",
+  "url": "https://arxiv.org/abs/2305.15334",
+  "title": "[2305.15334] Gorilla: Large Language Model Connected with Massive APIs",
+  "authors": [
+   "Patil, Shishir G.",
+   "Zhang, Tianjun",
+   "Wang, Xin",
+   "Gonzalez, Joseph E."
+  ],
+  "online_date": "2023/05/24",
+  "comment": null
+ },
+ "faithfulrag": {
+  "id": "2305.06983",
+  "url": "https://arxiv.org/abs/2305.06983",
+  "title": "[2305.06983] Active Retrieval Augmented Generation",
+  "authors": [
+   "Jiang, Zhengbao",
+   "Xu, Frank F.",
+   "Gao, Luyu",
+   "Sun, Zhiqing",
+   "Liu, Qian",
+   "Dwivedi-Yu, Jane",
+   "Yang, Yiming",
+   "Callan, Jamie",
+   "Neubig, Graham"
+  ],
+  "online_date": "2023/10/22",
+  "comment": "EMNLP 2023"
+ }
+}

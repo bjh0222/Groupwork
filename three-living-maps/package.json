@@ -1,0 +1,49 @@
+{
+  "name": "three-living-maps",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "三张活地图 · 面向 AI 专业大一学生的 LLM 应用开发与评估知识地图（课程《人工智能前沿与创新》大作业）",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "dev": "concurrently -n web,api -c cyan,magenta \"npm:dev:web\" \"npm:dev:api\"",
+    "dev:web": "vite --config web/vite.config.ts",
+    "dev:api": "node --watch server/index.mjs",
+    "build": "vite build --config web/vite.config.ts",
+    "start": "node server/index.mjs",
+    "seed": "node scripts/seed.mjs",
+    "export": "node scripts/export-data.mjs",
+    "backup": "node scripts/backup.mjs",
+    "restore": "node scripts/restore.mjs",
+    "eval": "node scripts/run-eval.mjs",
+    "test": "node --test tests/",
+    "typecheck": "tsc -p web/tsconfig.json --noEmit",
+    "lint:data": "node scripts/validate-data.mjs",
+    "screenshots": "node scripts/screenshots.mjs",
+    "tunnel": "node scripts/tunnel.mjs"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5",
+    "zustand": "^5.0.16"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "concurrently": "^10.0.6",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.5",
+    "wrangler": "^4.156.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "workerd@1.20261023.1": true
+  }
+}

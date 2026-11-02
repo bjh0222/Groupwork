@@ -1,0 +1,253 @@
+@import "tailwindcss";
+
+/* ===================================================================
+   「三张活地图」设计 Token —— 庄重典雅
+   墨色 / 宣纸 / 朱砂 / 翡翠 / 琥珀 / 科技蓝
+   语义化命名：颜色按用途而非色值引用，便于明暗主题切换。
+   =================================================================== */
+@theme {
+  --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", Georgia, serif;
+  --font-sans: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --font-mono: "SFMono-Regular", "JetBrains Mono", Consolas, monospace;
+
+  /* 墨 */
+  --color-ink-50: #f7f6f3;
+  --color-ink-100: #eceae4;
+  --color-ink-200: #d8d4ca;
+  --color-ink-300: #b5afa1;
+  --color-ink-400: #8d8677;
+  --color-ink-500: #6b6558;
+  --color-ink-600: #4e493f;
+  --color-ink-700: #36332c;
+  --color-ink-800: #24221d;
+  --color-ink-900: #1b1a17;
+  --color-ink-950: #121110;
+
+  /* 宣纸 */
+  --color-paper-50: #fdfcf9;
+  --color-paper-100: #faf8f3;
+  --color-paper-200: #f3efe5;
+  --color-paper-300: #e8e2d3;
+
+  /* 朱砂（主强调 / 选中） */
+  --color-cinnabar-300: #e8a08c;
+  --color-cinnabar-400: #d97a60;
+  --color-cinnabar-500: #bf4f32;
+  --color-cinnabar-600: #a03d24;
+  --color-cinnabar-700: #7d2f1c;
+
+  /* 翡翠（已核实） */
+  --color-jade-300: #8fd6b4;
+  --color-jade-500: #2f9e68;
+  --color-jade-600: #1f7d52;
+  --color-jade-700: #17603f;
+
+  /* 琥珀（部分核实 / 快变量过期） */
+  --color-amber-alert-400: #e6a54a;
+  --color-amber-alert-600: #b3761c;
+
+  /* 科技蓝（推断 / 信息） */
+  --color-azure-400: #6fa8dc;
+  --color-azure-600: #3a6ea5;
+
+  /* 灰蓝（待核实） */
+  --color-slate-mute-400: #97a0ab;
+  --color-slate-mute-600: #64707d;
+}
+
+/* 语义 Token：浅色（默认跟随系统） */
+:root {
+  --surface: var(--color-paper-100);
+  --surface-raised: var(--color-paper-50);
+  --surface-sunken: var(--color-paper-200);
+  --surface-inverse: var(--color-ink-900);
+  --border-subtle: var(--color-paper-300);
+  --border-strong: var(--color-ink-200);
+  --text-primary: var(--color-ink-900);
+  --text-secondary: var(--color-ink-600);
+  --text-muted: var(--color-ink-400);
+  --text-on-accent: var(--color-paper-50);
+  --accent: var(--color-cinnabar-500);
+  --accent-strong: var(--color-cinnabar-700);
+  --accent-soft: rgba(191, 79, 50, 0.10);
+  --focus-ring: var(--color-cinnabar-500);
+
+  --ev-verified: var(--color-jade-600);
+  --ev-verified-bg: rgba(31, 125, 82, 0.12);
+  --ev-partial: var(--color-amber-alert-600);
+  --ev-partial-bg: rgba(179, 118, 28, 0.14);
+  --ev-inferred: var(--color-azure-600);
+  --ev-inferred-bg: rgba(58, 110, 165, 0.13);
+  --ev-unverified: var(--color-slate-mute-600);
+  --ev-unverified-bg: rgba(100, 112, 125, 0.14);
+
+  --xray-from: rgba(191, 79, 50, 0.85);
+  --xray-to: rgba(58, 110, 165, 0.75);
+  --shadow-soft: 0 1px 2px rgba(27, 26, 23, .05), 0 8px 24px -12px rgba(27, 26, 23, .18);
+  --shadow-raised: 0 2px 6px rgba(27, 26, 23, .08), 0 18px 40px -18px rgba(27, 26, 23, .28);
+}
+
+/* 深色主题 */
+[data-theme="dark"] {
+  --surface: var(--color-ink-950);
+  --surface-raised: var(--color-ink-900);
+  --surface-sunken: #0d0c0b;
+  --surface-inverse: var(--color-paper-100);
+  --border-subtle: var(--color-ink-800);
+  --border-strong: var(--color-ink-700);
+  --text-primary: var(--color-ink-50);
+  --text-secondary: var(--color-ink-200);
+  --text-muted: var(--color-ink-400);
+  --text-on-accent: var(--color-paper-50);
+  --accent: var(--color-cinnabar-400);
+  --accent-strong: var(--color-cinnabar-300);
+  --accent-soft: rgba(217, 122, 96, 0.16);
+  --focus-ring: var(--color-cinnabar-300);
+
+  --ev-verified: var(--color-jade-300);
+  --ev-verified-bg: rgba(143, 214, 180, 0.14);
+  --ev-partial: var(--color-amber-alert-400);
+  --ev-partial-bg: rgba(230, 165, 74, 0.15);
+  --ev-inferred: var(--color-azure-400);
+  --ev-inferred-bg: rgba(111, 168, 220, 0.15);
+  --ev-unverified: var(--color-slate-mute-400);
+  --ev-unverified-bg: rgba(151, 160, 171, 0.15);
+
+  --xray-from: rgba(232, 160, 140, 0.9);
+  --xray-to: rgba(111, 168, 220, 0.8);
+  --shadow-soft: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px -12px rgba(0, 0, 0, .6);
+  --shadow-raised: 0 2px 6px rgba(0, 0, 0, .5), 0 18px 40px -18px rgba(0, 0, 0, .7);
+}
+
+@layer base {
+  * { border-color: var(--border-subtle); }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--surface);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.75;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 { font-family: var(--font-serif); font-weight: 600; line-height: 1.35; letter-spacing: .01em; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a:hover { color: var(--accent-strong); }
+  :focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; border-radius: 2px; }
+  ::selection { background: var(--accent-soft); }
+  /* 细滚动条，避免桌面端视觉噪声 */
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 6px; border: 3px solid var(--surface); }
+}
+
+@layer utilities {
+  .surface { background: var(--surface-raised); }
+  .surface-sunken { background: var(--surface-sunken); }
+  .text-secondary { color: var(--text-secondary); }
+  .text-muted { color: var(--text-muted); }
+  .border-subtle { border-color: var(--border-subtle); }
+  .border-strong { border-color: var(--border-strong); }
+  .shadow-soft { box-shadow: var(--shadow-soft); }
+  .shadow-raised { box-shadow: var(--shadow-raised); }
+  .accent-soft { background: var(--accent-soft); }
+  .serif { font-family: var(--font-serif); }
+  .card {
+    background: var(--surface-raised);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+    box-shadow: var(--shadow-soft);
+  }
+  .hairline { border-top: 1px solid var(--border-subtle); }
+  /* 无动画偏好：尊重系统设置，且提供 X-Ray 关闭开关 */
+  .no-motion *, .no-motion *::before, .no-motion *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* X-Ray 引力线脉冲 */
+@keyframes xray-dash {
+  to { stroke-dashoffset: -120; }
+}
+@keyframes xray-pulse {
+  0%, 100% { opacity: .55; }
+  50% { opacity: 1; }
+}
+.xray-line { animation: xray-dash 3.6s linear infinite; }
+.xray-pulse { animation: xray-pulse 2.4s ease-in-out infinite; }
+
+/* 知识边界雾化 */
+@keyframes fog-drift {
+  0%, 100% { opacity: .5; transform: translate3d(0, 0, 0); }
+  50% { opacity: .85; transform: translate3d(0, -4px, 0); }
+}
+.fog-panel { animation: fog-drift 6s ease-in-out infinite; }
+
+/* 抽屉滑入 */
+@keyframes drawer-in-right { from { transform: translateX(100%); } to { transform: translateX(0); } }
+@keyframes drawer-in-up { from { transform: translateY(100%); } to { transform: translateY(0); } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+.drawer-right { animation: drawer-in-right .22s cubic-bezier(.32,.72,.28,1); }
+.drawer-up { animation: drawer-in-up .24s cubic-bezier(.32,.72,.28,1); }
+.fade-in { animation: fade-in .18s ease-out; }
+
+/* 罗盘过滤：不属于当前成长路线的节点 */
+.track-dimmed { opacity: .3; transform: scale(.96); filter: grayscale(.85); }
+.track-focus { opacity: 1; transform: scale(1); filter: none; }
+.track-transition { transition: opacity .28s ease, transform .28s ease, filter .28s ease; }
+
+/* ---------- 证据徽章与理解程度标签 ---------- */
+.ev-verified { color: var(--ev-verified); background: var(--ev-verified-bg); border-color: color-mix(in srgb, var(--ev-verified) 35%, transparent); }
+.ev-partial { color: var(--ev-partial); background: var(--ev-partial-bg); border-color: color-mix(in srgb, var(--ev-partial) 35%, transparent); }
+.ev-inferred { color: var(--ev-inferred); background: var(--ev-inferred-bg); border-color: color-mix(in srgb, var(--ev-inferred) 35%, transparent); }
+.ev-unverified { color: var(--ev-unverified); background: var(--ev-unverified-bg); border-color: color-mix(in srgb, var(--ev-unverified) 35%, transparent); }
+.ks-none { color: var(--text-muted); background: var(--surface-sunken); border-color: var(--border-subtle); }
+.ks-low { color: var(--ev-inferred); background: var(--ev-inferred-bg); border-color: color-mix(in srgb, var(--ev-inferred) 30%, transparent); }
+.ks-mid { color: var(--ev-verified); background: var(--ev-verified-bg); border-color: color-mix(in srgb, var(--ev-verified) 30%, transparent); }
+.ks-todo { color: var(--ev-partial); background: var(--ev-partial-bg); border-color: color-mix(in srgb, var(--ev-partial) 30%, transparent); }
+
+/* 节点类型色点 */
+.nt-dot { display:inline-block; width:7px; height:7px; border-radius:50%; flex:none; }
+.nt-task, .nt-problem { background: var(--color-cinnabar-500); }
+.nt-concept { background: var(--color-azure-600); }
+.nt-approach { background: var(--color-jade-600); }
+.nt-tool, .nt-model { background: var(--color-amber-alert-600); }
+.nt-resource { background: var(--color-ink-400); }
+.nt-requirement, .nt-ability { background: var(--color-cinnabar-400); }
+.nt-course, .nt-pathway { background: var(--color-jade-300); }
+.nt-paper, .nt-benchmark, .nt-conference { background: var(--color-azure-400); }
+.nt-company, .nt-org, .nt-lab { background: var(--color-cinnabar-600); }
+.nt-community { background: var(--color-jade-600); }
+.nt-participant, .nt-user { background: var(--color-ink-500); }
+.nt-cost { background: var(--color-amber-alert-400); }
+.nt-method, .nt-habit, .nt-case, .nt-revision, .nt-principle { background: var(--color-slate-mute-600); }
+
+/* ---------- 背景水印（校徽 SVG，固定居中、极低不透明度、不拦截交互）---------- */
+:root { --watermark-opacity: 0.05; }
+[data-theme="dark"] { --watermark-opacity: 0.07; }
+.site-watermark {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  pointer-events: none;
+  background-image: url('/watermark.svg');
+  background-repeat: no-repeat;
+  background-position: center 40%;
+  background-size: min(68vmin, 620px);
+  opacity: var(--watermark-opacity);
+  filter: grayscale(30%);
+}
+@media print { .site-watermark { display: none; } }

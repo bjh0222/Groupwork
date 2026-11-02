@@ -1,0 +1,26 @@
+# 统一部署配置（Pages 风格）：产出 *.pages.dev 域名。
+# 背景（实测，2026-11-01）：workers.dev 在中国大陆公共 DNS（AliDNS 223.5.5.5 / DNSPod 119.29.29.29）
+# 被污染为伪造 IP（如 31.13.94.10 / 104.244.43.167），普通网络无法访问；
+# 而 pages.dev 在同样的解析器上返回真实 Cloudflare IP，可达。
+# 因此以 Pages 部署作为满足课程「国内普通网络可访问」的长期地址。
+name = "three-living-maps"
+pages_build_output_dir = "pages-dist"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "three-living-maps"
+database_id = "b4248189-59d4-4b08-b883-eb472a730cf9"
+
+[vars]
+AI_MAX_TOKENS = "3200"
+AI_TEMPERATURE = "0.2"
+AI_TIMEOUT_MS = "90000"
+AI_SCOPE_OVERLAP = "0.62"
+AI_SCOPE_CONF = "0.35"
+AI_RATE_LIMIT_PER_MIN = "10"
+API_RATE_PER_MIN = "240"
+FEEDBACK_RATE_PER_MIN = "6"
+CANDIDATE_RATE_PER_MIN = "6"
+ADMIN_RATE_PER_MIN = "120"

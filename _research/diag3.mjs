@@ -1,0 +1,13 @@
+import '../three-living-maps/server/lib/env.mjs';
+process.chdir('D:/桌面/大作业/three-living-maps');
+const {search,buildContext,expandQuery} = await import('../three-living-maps/server/lib/retrieval.mjs');
+const q='GLM-4.7-Flash 价格';
+console.log('expanded:', JSON.stringify(expandQuery(q).expanded));
+const r = search(q, { limit: 40, graphExpand:false });
+console.log('\n--- 全部命中（前 14）---');
+r.hits.slice(0,14).forEach((h,i)=>console.log(String(i).padStart(2), h.kind.padEnd(9), h.id.padEnd(18), String(h.score).padStart(7), '| cov='+(h.coverage??'-'), '|', (h.why||[]).join(',')));
+const n = r.hits.find(h=>h.id==='D-M-GLM47FLASH');
+console.log('\nD-M-GLM47FLASH:', n? 'rank '+r.hits.indexOf(n)+' score '+n.score+' why='+JSON.stringify(n.why) : 'NOT FOUND');
+console.log('\n--- buildContext（AI 用）---');
+const c=buildContext(q);
+console.log('node_ids:', c.node_ids.join(','));

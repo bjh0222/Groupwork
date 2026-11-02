@@ -1,0 +1,19 @@
+services:
+  maps:
+    build: .
+    container_name: three-living-maps
+    restart: unless-stopped
+    ports:
+      - "8787:8787"
+    environment:
+      NODE_ENV: production
+      PORT: 8787
+      HOST: 0.0.0.0
+      # 密钥通过 .env 注入，切勿写入本文件或镜像
+      ZHIPU_API_KEY: ${ZHIPU_API_KEY:-}
+      ZHIPU_BASE_URL: ${ZHIPU_BASE_URL:-https://open.bigmodel.cn/api/paas/v4}
+      ZHIPU_MODEL: ${ZHIPU_MODEL:-glm-4.7-flash}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+      ADMIN_TOKEN: ${ADMIN_TOKEN:-}
+    volumes:
+      - ./data:/app/data

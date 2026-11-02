@@ -1,0 +1,528 @@
+{
+  "run_at": "2026-11-02T05:32:43.780Z",
+  "pass": 104,
+  "fail": 0,
+  "total": 104,
+  "results": [
+    {
+      "name": "首页加载成功",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "首页标题含选题名",
+      "ok": true,
+      "detail": "三张活地图 · LLM 应用开发与评估"
+    },
+    {
+      "name": "首页展示选题",
+      "ok": true,
+      "detail": "大语言模型应用开发与评估"
+    },
+    {
+      "name": "首页有三张地图入口",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "首页有 AI 助手演示区",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "领域地图渲染节点卡片",
+      "ok": true,
+      "detail": "67 张卡片"
+    },
+    {
+      "name": "领域地图有六大板块分组",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "证据徽章已渲染",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "无横向溢出（桌面）",
+      "ok": true,
+      "detail": "scrollWidth=1440 innerWidth=1440"
+    },
+    {
+      "name": "点击节点打开详情抽屉",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "抽屉展示节点标题",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "抽屉展示来源",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "抽屉展示关系",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "抽屉展示继续探索",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ESC 可关闭抽屉",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "成长罗盘切换后节点被过滤弱化",
+      "ok": true,
+      "detail": "弱化 26 个 / 聚焦 41 个"
+    },
+    {
+      "name": "X-Ray 开关存在",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "X-Ray 默认开启",
+      "ok": true,
+      "detail": "aria-pressed=true"
+    },
+    {
+      "name": "选中节点后出现 X-Ray 星群面板",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "抽屉已收起且星群仍在（联动不中断）",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "X-Ray 开启时渲染引力线覆盖层",
+      "ok": true,
+      "detail": "overlay=1"
+    },
+    {
+      "name": "引力线实际画出（path 数 > 0）",
+      "ok": true,
+      "detail": "20 条 path"
+    },
+    {
+      "name": "关闭 X-Ray 后覆盖层消失",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "关闭 X-Ray 后星群静态关联仍可用（降级）",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "生态地图渲染节点",
+      "ok": true,
+      "detail": "45 个"
+    },
+    {
+      "name": "生态地图按链条分组",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "认知地图渲染节点",
+      "ok": true,
+      "detail": "30 个"
+    },
+    {
+      "name": "认知地图含认识修正分区",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "节点深链接可直接访问",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "节点深链接刷新不丢失路由",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "节点详情展示关系与来源",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "来源库渲染来源",
+      "ok": true,
+      "detail": "44 条"
+    },
+    {
+      "name": "来源库显示核查/访问日期",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "来源详情深链接可访问",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "来源详情展示支持的结论",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "搜索「RAG」有结果",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "搜索结果显示命中理由或同义词扩展",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "无关搜索显示无结果状态而非强行返回",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "首页右下角存在「小组分工」入口",
+      "ok": true,
+      "detail": "◈小组分工"
+    },
+    {
+      "name": "入口位于视口右下角",
+      "ok": true,
+      "detail": "x=1317,y=843"
+    },
+    {
+      "name": "入口跳转到 /team 且渲染标题",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分工页展示 4 名成员",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分工页含量化分摊表",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分工页如实标注签字待确认",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分工页提供原件 PDF 链接",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "评测页展示题目或运行状态",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "评测页含局限性披露",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "更新记录页可访问",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "更新记录含日期/依据/原因字段",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "反馈提交后显示成功提示",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "提交成功后输入框已清空",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "反馈列表出现刚提交的记录（真实写入）",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "管理端未配置令牌时显示「未启用」而非放行",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "AI 助手返回结果（生成或降级均可）",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "AI 回答附证据状态标注",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "AI 结果区显示模式（AI 回答/降级模式/边界）",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "AI 回答渲染可点击概念胶囊",
+      "ok": true,
+      "detail": "4 个胶囊（降级模式下回答含节点 ID 即应生成胶囊）"
+    },
+    {
+      "name": "点击胶囊展开证据引力线抽屉",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "越界问题触发知识边界提示（不编造）",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "越界提示提供下一步入口",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "越界问题未编造菜谱内容",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "主题切换生效",
+      "ok": true,
+      "detail": "data-theme=dark"
+    },
+    {
+      "name": "桌面端无 JS 控制台错误",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "响应含 CSP 头",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "响应含 X-Content-Type-Options",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "响应含 X-Frame-Options",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "生产环境不暴露 x-powered-by",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "前端构建产物不含 API 密钥或网关地址",
+      "ok": true,
+      "detail": "clean"
+    },
+    {
+      "name": "平板端地图正常渲染",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "平板端无横向溢出",
+      "ok": true,
+      "detail": "scrollWidth=834/834"
+    },
+    {
+      "name": "手机端首页渲染",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "手机端首页无横向溢出",
+      "ok": true,
+      "detail": "scrollWidth=390/390"
+    },
+    {
+      "name": "手机端地图渲染节点",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "手机端地图无横向溢出",
+      "ok": true,
+      "detail": "scrollWidth=390/390"
+    },
+    {
+      "name": "手机端点击节点弹出底部抽屉",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "手机端不渲染右侧抽屉",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "底部抽屉含多维标签流 Tab",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "手机端可触控切换标签流",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "切换 Tab 后仍无横向溢出",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "手机端 AI 助手页可访问",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "手机端 AI 页无横向溢出",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "手机端搜索可用",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "手机端搜索无横向溢出",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "手机端无 JS 错误",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "API /health 正常",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "API /meta 返回受控词表",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "API /meta 不泄露密钥",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "AI 状态接口不泄露内部 baseUrl",
+      "ok": true,
+      "detail": "{\"ok\":true,\"enabled\":true,\"channels\":[{\"id\":\"deepseek\",\"name\":\"DeepSeek\",\"model\":\"deepseek-flash\"}],\"primary\":{\"id\":\"dee"
+    },
+    {
+      "name": "公开接口不泄露内网 IP 或中转网关地址",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "公开接口不泄露凭据模式",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "API 节点总数 >= 142",
+      "ok": true,
+      "detail": "142"
+    },
+    {
+      "name": "API 关系总数 >= 233",
+      "ok": true,
+      "detail": "238"
+    },
+    {
+      "name": "API 来源总数 >= 44",
+      "ok": true,
+      "detail": "44"
+    },
+    {
+      "name": "不存在的节点返回 404",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "管理端写接口未授权时拒绝",
+      "ok": true,
+      "detail": "status=501"
+    },
+    {
+      "name": "管理端 lint 未授权时拒绝",
+      "ok": true,
+      "detail": "status=501"
+    },
+    {
+      "name": "超长问题被拒绝（400）",
+      "ok": true,
+      "detail": "status=400"
+    },
+    {
+      "name": "空问题被拒绝（400）",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非法 JSON 被拒绝（400）",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "含脚本标签的反馈可被安全接收",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "XSS 载荷以纯文本存储（未被执行为 HTML）",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "反馈页渲染 XSS 载荷时未触发脚本",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "提示注入请求未泄露密钥",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "提示注入请求未泄露系统提示全文",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

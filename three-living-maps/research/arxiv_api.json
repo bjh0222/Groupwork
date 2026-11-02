@@ -1,0 +1,750 @@
+{
+ "2307.03172v3": {
+  "title": "Lost in the Middle: How Language Models Use Long Contexts",
+  "authors": [
+   {
+    "name": "Nelson F. Liu",
+    "aff": null
+   },
+   {
+    "name": "Kevin Lin",
+    "aff": null
+   },
+   {
+    "name": "John Hewitt",
+    "aff": null
+   },
+   {
+    "name": "Ashwin Paranjape",
+    "aff": null
+   },
+   {
+    "name": "Michele Bevilacqua",
+    "aff": null
+   },
+   {
+    "name": "Fabio Petroni",
+    "aff": null
+   },
+   {
+    "name": "Percy Liang",
+    "aff": null
+   }
+  ],
+  "primary": "cs.CL",
+  "comment": "18 pages, 16 figures. Accepted for publication in Transactions of the Association for Computational Linguistics (TACL), 2023",
+  "published": "2023-07-06T17:54:11Z"
+ },
+ "2201.11903v6": {
+  "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+  "authors": [
+   {
+    "name": "Jason Wei",
+    "aff": null
+   },
+   {
+    "name": "Xuezhi Wang",
+    "aff": null
+   },
+   {
+    "name": "Dale Schuurmans",
+    "aff": null
+   },
+   {
+    "name": "Maarten Bosma",
+    "aff": null
+   },
+   {
+    "name": "Brian Ichter",
+    "aff": null
+   },
+   {
+    "name": "Fei Xia",
+    "aff": null
+   },
+   {
+    "name": "Ed Chi",
+    "aff": null
+   },
+   {
+    "name": "Quoc Le",
+    "aff": null
+   },
+   {
+    "name": "Denny Zhou",
+    "aff": null
+   }
+  ],
+  "primary": "cs.CL",
+  "comment": null,
+  "published": "2022-01-28T02:33:07Z"
+ },
+ "1706.03762v7": {
+  "title": "Attention Is All You Need",
+  "authors": [
+   {
+    "name": "Ashish Vaswani",
+    "aff": null
+   },
+   {
+    "name": "Noam Shazeer",
+    "aff": null
+   },
+   {
+    "name": "Niki Parmar",
+    "aff": null
+   },
+   {
+    "name": "Jakob Uszkoreit",
+    "aff": null
+   },
+   {
+    "name": "Llion Jones",
+    "aff": null
+   },
+   {
+    "name": "Aidan N. Gomez",
+    "aff": null
+   },
+   {
+    "name": "Lukasz Kaiser",
+    "aff": null
+   },
+   {
+    "name": "Illia Polosukhin",
+    "aff": null
+   }
+  ],
+  "primary": "cs.CL",
+  "comment": "15 pages, 5 figures",
+  "published": "2017-06-12T17:57:34Z"
+ },
+ "2210.03629v3": {
+  "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+  "authors": [
+   {
+    "name": "Shunyu Yao",
+    "aff": null
+   },
+   {
+    "name": "Jeffrey Zhao",
+    "aff": null
+   },
+   {
+    "name": "Dian Yu",
+    "aff": null
+   },
+   {
+    "name": "Nan Du",
+    "aff": null
+   },
+   {
+    "name": "Izhak Shafran",
+    "aff": null
+   },
+   {
+    "name": "Karthik Narasimhan",
+    "aff": null
+   },
+   {
+    "name": "Yuan Cao",
+    "aff": null
+   }
+  ],
+  "primary": "cs.CL",
+  "comment": "v3 is the ICLR camera ready version with some typos fixed. Project site with code: https://react-lm.github.io",
+  "published": "2022-10-06T01:00:32Z"
+ },
+ "2211.09110v2": {
+  "title": "Holistic Evaluation of Language Models",
+  "authors": [
+   {
+    "name": "Percy Liang",
+    "aff": null
+   },
+   {
+    "name": "Rishi Bommasani",
+    "aff": null
+   },
+   {
+    "name": "Tony Lee",
+    "aff": null
+   },
+   {
+    "name": "Dimitris Tsipras",
+    "aff": null
+   },
+   {
+    "name": "Dilara Soylu",
+    "aff": null
+   },
+   {
+    "name": "Michihiro Yasunaga",
+    "aff": null
+   },
+   {
+    "name": "Yian Zhang",
+    "aff": null
+   },
+   {
+    "name": "Deepak Narayanan",
+    "aff": null
+   },
+   {
+    "name": "Yuhuai Wu",
+    "aff": null
+   },
+   {
+    "name": "Ananya Kumar",
+    "aff": null
+   },
+   {
+    "name": "Benjamin Newman",
+    "aff": null
+   },
+   {
+    "name": "Binhang Yuan",
+    "aff": null
+   },
+   {
+    "name": "Bobby Yan",
+    "aff": null
+   },
+   {
+    "name": "Ce Zhang",
+    "aff": null
+   },
+   {
+    "name": "Christian Cosgrove",
+    "aff": null
+   },
+   {
+    "name": "Christopher D. Manning",
+    "aff": null
+   },
+   {
+    "name": "Christopher Ré",
+    "aff": null
+   },
+   {
+    "name": "Diana Acosta-Navas",
+    "aff": null
+   },
+   {
+    "name": "Drew A. Hudson",
+    "aff": null
+   },
+   {
+    "name": "Eric Zelikman",
+    "aff": null
+   },
+   {
+    "name": "Esin Durmus",
+    "aff": null
+   },
+   {
+    "name": "Faisal Ladhak",
+    "aff": null
+   },
+   {
+    "name": "Frieda Rong",
+    "aff": null
+   },
+   {
+    "name": "Hongyu Ren",
+    "aff": null
+   },
+   {
+    "name": "Huaxiu Yao",
+    "aff": null
+   },
+   {
+    "name": "Jue Wang",
+    "aff": null
+   },
+   {
+    "name": "Keshav Santhanam",
+    "aff": null
+   },
+   {
+    "name": "Laurel Orr",
+    "aff": null
+   },
+   {
+    "name": "Lucia Zheng",
+    "aff": null
+   },
+   {
+    "name": "Mert Yuksekgonul",
+    "aff": null
+   },
+   {
+    "name": "Mirac Suzgun",
+    "aff": null
+   },
+   {
+    "name": "Nathan Kim",
+    "aff": null
+   },
+   {
+    "name": "Neel Guha",
+    "aff": null
+   },
+   {
+    "name": "Niladri Chatterji",
+    "aff": null
+   },
+   {
+    "name": "Omar Khattab",
+    "aff": null
+   },
+   {
+    "name": "Peter Henderson",
+    "aff": null
+   },
+   {
+    "name": "Qian Huang",
+    "aff": null
+   },
+   {
+    "name": "Ryan Chi",
+    "aff": null
+   },
+   {
+    "name": "Sang Michael Xie",
+    "aff": null
+   },
+   {
+    "name": "Shibani Santurkar",
+    "aff": null
+   },
+   {
+    "name": "Surya Ganguli",
+    "aff": null
+   },
+   {
+    "name": "Tatsunori Hashimoto",
+    "aff": null
+   },
+   {
+    "name": "Thomas Icard",
+    "aff": null
+   },
+   {
+    "name": "Tianyi Zhang",
+    "aff": null
+   },
+   {
+    "name": "Vishrav Chaudhary",
+    "aff": null
+   },
+   {
+    "name": "William Wang",
+    "aff": null
+   },
+   {
+    "name": "Xuechen Li",
+    "aff": null
+   },
+   {
+    "name": "Yifan Mai",
+    "aff": null
+   },
+   {
+    "name": "Yuhui Zhang",
+    "aff": null
+   },
+   {
+    "name": "Yuta Koreeda",
+    "aff": null
+   }
+  ],
+  "primary": "cs.CL",
+  "comment": "Authored by the Center for Research on Foundation Models (CRFM) at the Stanford Institute for Human-Centered Artificial Intelligence (HAI). Project page: https://crfm.stanford.edu/helm/v1.0",
+  "published": "2022-11-16T18:51:34Z"
+ },
+ "2302.12173v2": {
+  "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+  "authors": [
+   {
+    "name": "Kai Greshake",
+    "aff": null
+   },
+   {
+    "name": "Sahar Abdelnabi",
+    "aff": null
+   },
+   {
+    "name": "Shailesh Mishra",
+    "aff": null
+   },
+   {
+    "name": "Christoph Endres",
+    "aff": null
+   },
+   {
+    "name": "Thorsten Holz",
+    "aff": null
+   },
+   {
+    "name": "Mario Fritz",
+    "aff": null
+   }
+  ],
+  "primary": "cs.CR",
+  "comment": null,
+  "published": "2023-02-23T17:14:38Z"
+ },
+ "2210.08726v3": {
+  "title": "RARR: Researching and Revising What Language Models Say, Using Language Models",
+  "authors": [
+   {
+    "name": "Luyu Gao",
+    "aff": null
+   },
+   {
+    "name": "Zhuyun Dai",
+    "aff": null
+   },
+   {
+    "name": "Panupong Pasupat",
+    "aff": null
+   },
+   {
+    "name": "Anthony Chen",
+    "aff": null
+   },
+   {
+    "name": "Arun Tejasvi Chaganty",
+    "aff": null
+   },
+   {
+    "name": "Yicheng Fan",
+    "aff": null
+   },
+   {
+    "name": "Vincent Y. Zhao",
+    "aff": null
+   },
+   {
+    "name": "Ni Lao",
+    "aff": null
+   },
+   {
+    "name": "Hongrae Lee",
+    "aff": null
+   },
+   {
+    "name": "Da-Cheng Juan",
+    "aff": null
+   },
+   {
+    "name": "Kelvin Guu",
+    "aff": null
+   }
+  ],
+  "primary": "cs.CL",
+  "comment": "ACL 2023",
+  "published": "2022-10-17T03:44:30Z"
+ },
+ "2302.04761v1": {
+  "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "authors": [
+   {
+    "name": "Timo Schick",
+    "aff": null
+   },
+   {
+    "name": "Jane Dwivedi-Yu",
+    "aff": null
+   },
+   {
+    "name": "Roberto Dessì",
+    "aff": null
+   },
+   {
+    "name": "Roberta Raileanu",
+    "aff": null
+   },
+   {
+    "name": "Maria Lomeli",
+    "aff": null
+   },
+   {
+    "name": "Luke Zettlemoyer",
+    "aff": null
+   },
+   {
+    "name": "Nicola Cancedda",
+    "aff": null
+   },
+   {
+    "name": "Thomas Scialom",
+    "aff": null
+   }
+  ],
+  "primary": "cs.CL",
+  "comment": null,
+  "published": "2023-02-09T16:49:57Z"
+ },
+ "2305.15334v1": {
+  "title": "Gorilla: Large Language Model Connected with Massive APIs",
+  "authors": [
+   {
+    "name": "Shishir G. Patil",
+    "aff": null
+   },
+   {
+    "name": "Tianjun Zhang",
+    "aff": null
+   },
+   {
+    "name": "Xin Wang",
+    "aff": null
+   },
+   {
+    "name": "Joseph E. Gonzalez",
+    "aff": null
+   }
+  ],
+  "primary": "cs.CL",
+  "comment": null,
+  "published": "2023-05-24T16:48:11Z"
+ },
+ "2305.06983v2": {
+  "title": "Active Retrieval Augmented Generation",
+  "authors": [
+   {
+    "name": "Zhengbao Jiang",
+    "aff": null
+   },
+   {
+    "name": "Frank F. Xu",
+    "aff": null
+   },
+   {
+    "name": "Luyu Gao",
+    "aff": null
+   },
+   {
+    "name": "Zhiqing Sun",
+    "aff": null
+   },
+   {
+    "name": "Qian Liu",
+    "aff": null
+   },
+   {
+    "name": "Jane Dwivedi-Yu",
+    "aff": null
+   },
+   {
+    "name": "Yiming Yang",
+    "aff": null
+   },
+   {
+    "name": "Jamie Callan",
+    "aff": null
+   },
+   {
+    "name": "Graham Neubig",
+    "aff": null
+   }
+  ],
+  "primary": "cs.CL",
+  "comment": "EMNLP 2023",
+  "published": "2023-05-11T17:13:40Z"
+ },
+ "2312.10997v5": {
+  "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+  "authors": [
+   {
+    "name": "Yunfan Gao",
+    "aff": null
+   },
+   {
+    "name": "Yun Xiong",
+    "aff": null
+   },
+   {
+    "name": "Xinyu Gao",
+    "aff": null
+   },
+   {
+    "name": "Kangxiang Jia",
+    "aff": null
+   },
+   {
+    "name": "Jinliu Pan",
+    "aff": null
+   },
+   {
+    "name": "Yuxi Bi",
+    "aff": null
+   },
+   {
+    "name": "Yi Dai",
+    "aff": null
+   },
+   {
+    "name": "Jiawei Sun",
+    "aff": null
+   },
+   {
+    "name": "Meng Wang",
+    "aff": null
+   },
+   {
+    "name": "Haofen Wang",
+    "aff": null
+   }
+  ],
+  "primary": "cs.CL",
+  "comment": "Ongoing Work",
+  "published": "2023-12-18T07:47:33Z"
+ },
+ "2310.11511v1": {
+  "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+  "authors": [
+   {
+    "name": "Akari Asai",
+    "aff": null
+   },
+   {
+    "name": "Zeqiu Wu",
+    "aff": null
+   },
+   {
+    "name": "Yizhong Wang",
+    "aff": null
+   },
+   {
+    "name": "Avirup Sil",
+    "aff": null
+   },
+   {
+    "name": "Hannaneh Hajishirzi",
+    "aff": null
+   }
+  ],
+  "primary": "cs.CL",
+  "comment": "30 pages, 2 figures, 12 tables",
+  "published": "2023-10-17T18:18:32Z"
+ },
+ "2005.11401v4": {
+  "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "authors": [
+   {
+    "name": "Patrick Lewis",
+    "aff": null
+   },
+   {
+    "name": "Ethan Perez",
+    "aff": null
+   },
+   {
+    "name": "Aleksandra Piktus",
+    "aff": null
+   },
+   {
+    "name": "Fabio Petroni",
+    "aff": null
+   },
+   {
+    "name": "Vladimir Karpukhin",
+    "aff": null
+   },
+   {
+    "name": "Naman Goyal",
+    "aff": null
+   },
+   {
+    "name": "Heinrich Küttler",
+    "aff": null
+   },
+   {
+    "name": "Mike Lewis",
+    "aff": null
+   },
+   {
+    "name": "Wen-tau Yih",
+    "aff": null
+   },
+   {
+    "name": "Tim Rocktäschel",
+    "aff": null
+   },
+   {
+    "name": "Sebastian Riedel",
+    "aff": null
+   },
+   {
+    "name": "Douwe Kiela",
+    "aff": null
+   }
+  ],
+  "primary": "cs.CL",
+  "comment": "Accepted at NeurIPS 2020",
+  "published": "2020-05-22T21:34:34Z"
+ },
+ "2306.05685v4": {
+  "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+  "authors": [
+   {
+    "name": "Lianmin Zheng",
+    "aff": null
+   },
+   {
+    "name": "Wei-Lin Chiang",
+    "aff": null
+   },
+   {
+    "name": "Ying Sheng",
+    "aff": null
+   },
+   {
+    "name": "Siyuan Zhuang",
+    "aff": null
+   },
+   {
+    "name": "Zhanghao Wu",
+    "aff": null
+   },
+   {
+    "name": "Yonghao Zhuang",
+    "aff": null
+   },
+   {
+    "name": "Zi Lin",
+    "aff": null
+   },
+   {
+    "name": "Zhuohan Li",
+    "aff": null
+   },
+   {
+    "name": "Dacheng Li",
+    "aff": null
+   },
+   {
+    "name": "Eric P. Xing",
+    "aff": null
+   },
+   {
+    "name": "Hao Zhang",
+    "aff": null
+   },
+   {
+    "name": "Joseph E. Gonzalez",
+    "aff": null
+   },
+   {
+    "name": "Ion Stoica",
+    "aff": null
+   }
+  ],
+  "primary": "cs.CL",
+  "comment": "NeurIPS 2023 Datasets and Benchmarks Track",
+  "published": "2023-06-09T05:55:52Z"
+ }
+}
